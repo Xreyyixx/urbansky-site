@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>UrbanSky — экскурсии по крышам</title>
+
+<style>
+body {
+    margin:0;
+    font-family: Arial;
+    background:#0f172a;
+    color:#e5e7eb;
+}
+
+header {
+    background:#020617;
+    padding:20px;
+    text-align:center;
+}
+
+nav a {
+    margin:0 10px;
+    color:#94a3b8;
+    text-decoration:none;
+}
+
+section {
+    padding:40px;
+    max-width:900px;
+    margin:auto;
+}
+
+.card {
+    background:#1e293b;
+    padding:20px;
+    margin:15px auto;
+    border-radius:10px;
+}
+
+.btn {
+    display:inline-block;
+    padding:10px 15px;
+    background:#3b82f6;
+    color:white;
+    border-radius:5px;
+    text-decoration:none;
+    margin:5px 5px 5px 0;
+}
+
+.btn.disabled {
+    background:gray;
+    pointer-events:none;
+}
+
+img {
+    width:100%;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+footer {
+    text-align:center;
+    padding:25px;
+    background:#020617;
+    color:#94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>UrbanSky</h1>
+<p>Экскурсии по крышам Санкт-Петербурга</p>
+
+<nav>
+<a href="#about">О нас</a>
+<a href="#tours">Экскурсии</a>
+<a href="#team">Сотрудники</a>
+<a href="#contacts">Контакты</a>
+</nav>
+</header>
+
+<!-- О КОМПАНИИ -->
+<section id="about">
+<h2>О компании</h2>
+
+<p>
+UrbanSky — экскурсионный проект Санкт-Петербурга, работающий с 2018 года.
+Мы занимаемся разработкой городских маршрутов различной сложности.
+</p>
+
+<p>
+Система маршрутов может изменяться без предварительного уведомления пользователей.
+</p>
+</section>
+
+<!-- 🧠 ШУМ -->
+<section class="card">
+<h2>Системная информация</h2>
+
+<p>Система работает в распределённом режиме обработки данных.</p>
+<p>Возможны временные расхождения между разделами сайта.</p>
+<p>Некоторые маршруты могут быть временно недоступны.</p>
+<p>Данные синхронизируются между модулями системы.</p>
+<p>Часть информации обновляется автоматически.</p>
+<p>Внутренние изменения не всегда отражаются в интерфейсе.</p>
+</section>
+
+<!-- 🔘 КНОПКИ -->
+<section class="card">
+<h2>Разделы системы</h2>
+
+<a class="btn" href="about_more.html">Расширенная информация</a>
+<a class="btn" href="docs.html">Документы</a>
+<a class="btn" href="routes_archive.html">Архив маршрутов</a>
+<a class="btn" href="docs.html">Журналы системы</a>
+
+<a class="btn disabled">Внутренний доступ A</a>
+<a class="btn disabled">Внутренний доступ B</a>
+<a class="btn disabled">Карта технических зон</a>
+<a class="btn disabled">Архив логов</a>
+<a class="btn disabled">Резервные маршруты</a>
+</section>
+
+<!-- 🧠 ДОП ШУМ -->
+<section class="card">
+<h2>Примечания системы</h2>
+
+<p>Информация может обновляться без уведомления.</p>
+<p>Некоторые данные могут отличаться от внутренних записей.</p>
+<p>Система использует многоуровневую синхронизацию данных.</p>
+<p>Рекомендуется обновлять страницу для получения актуальной информации.</p>
+</section>
+
+<!-- 🧭 ЭКСКУРСИИ -->
+<section id="tours">
+<h2>Экскурсии</h2>
+
+<div class="card">
+<h3>Исторический центр</h3>
+<p>10–15 октября</p>
+<a class="btn disabled">Нет мест</a>
+</div>
+
+<div class="card">
+<h3>Ночные крыши Петербурга</h3>
+<p>11–14 октября</p>
+<a class="btn disabled">Нет мест</a>
+</div>
+
+<div class="card">
+<h3>Архитектура города сверху</h3>
+<p>9–13 октября</p>
+<a class="btn disabled">Нет мест</a>
+</div>
+
+<div class="card">
+<h3>Закрытая тестовая экскурсия</h3>
+<p>13 октября</p>
+<a class="btn disabled">Недоступно</a>
+</div>
+
+<p style="color:#94a3b8;">
+13 октября — технический перерыв системы
+</p>
+</section>
+
+<!-- 👥 СОТРУДНИКИ -->
+<section id="team">
+<h2>Сотрудники</h2>
+
+<div class="card">
+<h3>Илья Воронов</h3>
+<p>Гид</p>
+<a class="btn" href="ilya.html">Профиль</a>
+</div>
+
+<div class="card">
+<h3>Наталья Воробьёва</h3>
+<p>Руководитель компании</p>
+</div>
+
+<div class="card">
+<h3>Артём Соколов</h3>
+<p>Технический специалист</p>
+</div>
+
+<div class="card">
+<h3>Кирилл Громов</h3>
+<p>Администратор системы маршрутов</p>
+</div>
+
+<div class="card">
+<h3>Мария Лебедева</h3>
+<p>Гид</p>
+</div>
+
+<div class="card">
+<h3>Дмитрий Орлов</h3>
+<p>Гид</p>
+</div>
+
+</section>
+
+<!-- 📞 КОНТАКТЫ -->
+<section id="contacts">
+<h2>Контакты</h2>
+
+<div class="card">
+<p>Email: info@urbansky.ru</p>
+<p>Телефон: +7 812 643 21 98</p>
+<p>Санкт-Петербург</p>
+</div>
+</section>
+
+<!-- 🧾 ФУТЕР -->
+<footer>
+© 2018–2026 UrbanSky
+
+<p style="font-size:11px; opacity:0.6;">
+13 октября — технические работы системы
+</p>
+</footer>
+
+</body>
+</html>
