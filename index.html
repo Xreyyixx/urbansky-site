@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>UrbanSky — экскурсии по крышам</title>
+
+<style>
+body {
+    margin:0;
+    font-family: Arial;
+    background:#0f172a;
+    color:#e5e7eb;
+}
+
+header {
+    background:#020617;
+    padding:20px;
+    text-align:center;
+}
+
+nav a {
+    margin:0 10px;
+    color:#94a3b8;
+    text-decoration:none;
+}
+
+section {
+    padding:40px;
+    max-width:900px;
+    margin:auto;
+}
+
+.card {
+    background:#1e293b;
+    padding:20px;
+    margin:15px 0;
+    border-radius:10px;
+}
+
+.btn {
+    display:inline-block;
+    padding:10px 15px;
+    background:#3b82f6;
+    color:white;
+    border-radius:5px;
+    text-decoration:none;
+    margin:5px 5px 5px 0;
+}
+
+.btn.disabled {
+    background:gray;
+    pointer-events:none;
+}
+
+img {
+    width:100%;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+footer {
+    text-align:center;
+    padding:25px;
+    background:#020617;
+    color:#94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>UrbanSky</h1>
+<p>Экскурсии по крышам Санкт-Петербурга</p>
+
+<nav>
+<a href="#about">О нас</a>
+<a href="#tours">Экскурсии</a>
+<a href="#team">Сотрудники</a>
+<a href="#contacts">Контакты</a>
+</nav>
+</header>
+
+<!-- О КОМПАНИИ -->
+<section id="about">
+<h2>О компании</h2>
+
+<p>
+UrbanSky — экскурсионный проект Санкт-Петербурга, работающий с 2018 года.
+</p>
+
+<p>
+Мы занимаемся разработкой городских маршрутов различной сложности.
+</p>
+
+<p>
+Система маршрутов может изменяться без предварительного уведомления пользователей.
+</p>
+</section>
+
+<!-- 🔥 МЕГА-ШУМ -->
+<section class="card">
+<h2>Системная информация</h2>
+
+<p>Система работает в режиме распределённой обработки данных.</p>
+<p>Возможны временные расхождения между разделами сайта.</p>
+<p>Часть данных обновляется в автоматическом режиме.</p>
+<p>Некоторые маршруты могут быть временно недоступны.</p>
+<p>Внутренние изменения не всегда отображаются в публичной версии.</p>
+<p>Система резервирования может перераспределять слоты автоматически.</p>
+<p>Данные синхронизируются между модулями системы.</p>
+<p>Рекомендуется использовать актуальную версию данных.</p>
+<p>Некоторые функции могут быть ограничены.</p>
+</section>
+
+<!-- 🔘 КНОПКИ -->
+<section class="card">
+<h2>Разделы системы</h2>
+
+<a class="btn" href="about_more.html">Расширенная информация</a>
+<a class="btn" href="docs.html">Документы</a>
+<a class="btn" href="routes_archive.html">Архив маршрутов</a>
+<a class="btn" href="docs.html">Журналы системы</a>
+
+<a class="btn disabled">Внутренний доступ A</a>
+<a class="btn disabled">Внутренний доступ B</a>
+<a class="btn disabled">Внутренний доступ C</a>
+<a class="btn disabled">Карта технических зон</a>
+<a class="btn disabled">Архив логов</a>
+<a class="btn disabled">Система резервирования</a>
+</section>
+
+<!-- 🧠 ЕЩЁ ШУМ -->
+<section class="card">
+<h2>Примечания системы</h2>
+
+<p>Данные могут обновляться без уведомления.</p>
+<p>Некоторые версии информации могут отличаться.</p>
+<p>Система использует многоуровневую синхронизацию.</p>
+<p>Внутренние журналы не всегда доступны пользователям.</p>
+<p>Рекомендуется обновлять страницу для актуальных данных.</p>
+</section>
+
+<!-- ГАЛЕРЕЯ -->
+<section>
+<h2>Галерея</h2>
+
+<div class="card">
+<h3>Панорама крыш</h3>
+<img src="images/roof1.jpg">
+</div>
+
+<div class="card">
+<h3>Ночной Петербург</h3>
+<img src="images/roof2.jpg">
+</div>
+
+<div class="card">
+<h3>Архитектура города</h3>
+<img src="images/roof3.jpg">
+</div>
+</section>
+
+<!-- ЭКСКУРСИИ -->
+<section id="tours">
+<h2>Экскурсии</h2>
+
+<div class="card">
+<h3>Исторический центр</h3>
+<p>10–15 октября</p>
+<a class="btn disabled">Нет мест</a>
+</div>
+
+<p style="color:#94a3b8;">13 октября — технический перерыв системы</p>
+</section>
+
+<!-- СОТРУДНИКИ -->
+<section id="team">
+<h2>Сотрудники</h2>
+
+<div class="card">
+<h3>Илья Воронов</h3>
+<p>Гид</p>
+<a class="btn" href="ilya.html">Профиль</a>
+</div>
+
+<div class="card">
+<h3>Наталья Воробьёва</h3>
+<p>Руководитель</p>
+</div>
+
+<div class="card">
+<h3>Административный отдел</h3>
+<p>Служебный персонал</p>
+</div>
+</section>
+
+<!-- КОНТАКТЫ -->
+<section id="contacts">
+<h2>Контакты</h2>
+
+<div class="card">
+<p>Email: info@urbansky.ru</p>
+<p>Телефон: +7 812 643 21 98</p>
+<p>Санкт-Петербург</p>
+</div>
+</section>
+
+<footer>
+© 2018–2026 UrbanSky
+<p style="font-size:11px; opacity:0.6;">
+13 октября — технические работы системы
+</p>
+</footer>
+
+</body>
+</html>
